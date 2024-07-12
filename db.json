@@ -1,0 +1,27 @@
+{
+  "customers": [
+    { "id": 1, "name": "Ahmed Ali" },
+    { "id": 2, "name": "Aya Elsayed" },
+    { "id": 3, "name": "Mina Adel" },
+    { "id": 4, "name": "Sarah Reda" },
+    { "id": 5, "name": "Mohamed Sayed" }
+  ],
+  "transactions": [
+    { "id": 1, "customer_id": 1, "date": "2022-01-01", "amount": 1000, "status": "Succeeded", "method": "Credit Card" },
+    { "id": 2, "customer_id": 1, "date": "2022-01-02", "amount": 2000, "status": "Succeeded", "method": "Bank Transfer" },
+    { "id": 3, "customer_id": 2, "date": "2022-01-01", "amount": 550, "status": "Refunded", "method": "Credit Card" },
+    { "id": 4, "customer_id": 3, "date": "2022-01-01", "amount": 500, "status": "Failed", "method": "Credit Card" },
+    { "id": 5, "customer_id": 2, "date": "2022-01-02", "amount": 1300, "status": "Succeeded", "method": "Credit Card" },
+    { "id": 6, "customer_id": 4, "date": "2022-01-01", "amount": 750, "status": "Succeeded", "method": "Bank Transfer" },
+    { "id": 7, "customer_id": 3, "date": "2022-01-02", "amount": 1250, "status": "Succeeded", "method": "Bank Transfer" },
+    { "id": 8, "customer_id": 5, "date": "2022-01-01", "amount": 2500, "status": "Succeeded", "method": "Credit Card" },
+    { "id": 9, "customer_id": 5, "date": "2022-01-02", "amount": 875, "status": "Succeeded", "method": "Credit Card" },
+
+    { "id": 10, "customer_id": 1, "date": "2022-01-05", "amount": 1010, "status": "Succeeded", "method": "Credit Card" },
+    { "id": 11, "customer_id": 2, "date": "2022-01-08", "amount": 650, "status": "Refunded", "method": "Credit Card" },
+    { "id": 12, "customer_id": 3, "date": "2022-01-04", "amount": 800, "status": "Failed", "method": "Credit Card" },
+    { "id": 13, "customer_id": 4, "date": "2022-01-06", "amount": 950, "status": "Succeeded", "method": "Bank Transfer" },
+    { "id": 14, "customer_id": 5, "date": "2022-01-03", "amount": 4500, "status": "Succeeded", "method": "Credit Card" },
+    { "id": 18, "customer_id": 1, "date": "2022-01-07", "amount": 1805, "status": "Succeeded", "method": "Credit Card" }
+  ]
+}
